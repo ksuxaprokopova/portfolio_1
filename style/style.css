@@ -242,6 +242,10 @@ body{
     color: #FFFFFF;
 }
 
+.img_understand:hover p{
+    color: #ffffff;
+}
+
 .img_understand_text{
     font-weight: bold;
     font-size: 22px;
