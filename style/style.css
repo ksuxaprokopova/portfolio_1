@@ -23,18 +23,18 @@ body{
     align-items: center;
 }
 
-.logo img{
+.header_logo img{
     margin-right: 15px;
 }
 
-.logo_title{
+.header_logo_title{
     font-weight: 700;
     font-size: 20px;
     line-height: 25px;
     color: #2B292D;
 }
 
-.logo_text{
+.header_logo_text{
     font-size: 18px;
     line-height: 25px;
     color: rgba(43, 41, 45, 0.6);
@@ -83,6 +83,7 @@ body{
     line-height: 13px;
     color: #FFFFFF;
     border: none;
+    margin-right: 130px;
    
 }
 
@@ -90,6 +91,32 @@ body{
     cursor: pointer;
     transition: .7s;
     background:  #9198d5;
+}
+
+.hat{
+    background-color: rgba(243, 198, 189, 1);
+    padding: 0 77px 25px 130px;
+    position: relative;
+}
+.hat_blok{
+ 
+}
+
+.hat_title{
+    font-size: 80px;
+    font-weight: 900;
+    line-height: 78px;
+    letter-spacing: -0.5px;
+    color: #2B292D;
+    
+}
+
+.hat_img{
+     
+}
+
+.hat_buttons{
+   
 }
 
 .questions{
@@ -167,7 +194,8 @@ body{
     line-height: 34px;
     text-align: center;
     color: #2B292D;
-    margin-bottom: 34px;++
+    margin-bottom: 34px;
+    max-width: 554px;
 }
 
 .understand_buttons{
@@ -215,14 +243,11 @@ body{
 }
  
 
-.understand_slider{
- 
-}
 .grid_understand{
     display: grid;
     gap: 31px;
-    grid-template-columns: repeat(4, 262px);
-    grid-template-rows: repeat(1, 300px);
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(1, 1fr);
    
     margin-bottom: 110px;
 }
@@ -230,7 +255,8 @@ body{
 .img_understand{
     text-align: center;
     background-color: #fff;
-    padding-top: 22px ;
+    padding: 25px 55px;
+    
     margin-bottom: 22px;
    
 
@@ -263,9 +289,10 @@ body{
 
 .portfolio{
     padding: 90px 130px;
+    
 }
 .portfolio_about{
-    text-align: center;
+   text-align: center;
 }
 .portfolio_title{
     font-style: normal;
@@ -277,19 +304,19 @@ body{
 }
 
 .portfolio_text{
-    
     font-weight: 500;
     font-size: 24px;
     line-height: 34px;
-    text-align: center;
     color: #172342;
+    max-width: 555px;
+    margin: 0 auto;
     margin-bottom: 95px;
 }
 
 .grid_portfolio{
     display: grid;
-    grid-template-columns: repeat(3, 345px);
-    grid-template-rows: repeat(3,208px);
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
     gap: 45px;
 }
 
