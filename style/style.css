@@ -23,6 +23,10 @@ body{
     align-items: center;
 }
 
+.flex_start{
+    justify-content: start;
+}
+
 .header_logo img{
     margin-right: 15px;
 }
@@ -74,7 +78,7 @@ body{
     transition: .7s;
 }
 
-.header_button{
+.buttons{
     width: 160px;
     height: 48px;
     background: linear-gradient(180deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 1e-05) 100%), #3040C4;
@@ -93,31 +97,6 @@ body{
     background:  #9198d5;
 }
 
-.hat{
-    background-color: rgba(243, 198, 189, 1);
-    padding: 0 77px 25px 130px;
-    position: relative;
-}
-.hat_blok{
- 
-}
-
-.hat_title{
-    font-size: 80px;
-    font-weight: 900;
-    line-height: 78px;
-    letter-spacing: -0.5px;
-    color: #2B292D;
-    
-}
-
-.hat_img{
-     
-}
-
-.hat_buttons{
-   
-}
 
 .questions{
     background-color: #F4F5F7;
@@ -159,6 +138,118 @@ body{
 .logos_img:last-child{
     margin-right: 0;
 }
+
+.inbox{
+   background-color: rgba(252, 240, 227, .4);
+   padding: 117px 0 116px;
+}
+
+.inbox_content{
+    max-width: 519px;
+    width: 100%;
+    background-color: #fff;
+    padding: 30px 30px 24px;
+    box-sizing: border-box;
+    border-bottom: 4px solid #0185D0;;
+   
+}
+
+.inbox_content_text{
+    font-size: 20px;
+    line-height: 28px;
+    color: #2B292D;
+    margin-bottom: 26px;
+}
+
+.inbox_content_text_bold{
+    font-weight: 700;
+}
+
+.inbox_name{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    color: #2B292D;
+}
+
+.inbox_position{
+    font-size: 16px;
+    line-height: 22px;
+    color: rgba(43, 41, 45, 0.6);
+}
+
+.inbox_img{
+   margin-right: 11px; 
+}
+
+.v-pre_title{
+    font-size: 22px;
+    line-height: 34px;
+    font-weight: bold;
+    margin-bottom: 26px;
+}
+
+.v-pre_title_orange{
+    color: #F1592B;
+}
+.v-pre_title_blue{
+    color: rgba(1, 137, 209, 1);
+}
+
+.v-title{
+    font-weight: bold;
+    font-size: 56px;
+    line-height: 56px;
+    letter-spacing: -0.5px;
+    color: #2B292D;
+    max-width: 462px;
+    margin-bottom: 26px;
+}
+
+.v-text{
+    font-size: 24px;
+    line-height: 34px;
+    color: #2B292D;
+    max-width: 461px;
+    margin-bottom: 44px;
+}
+
+.communicate{
+    padding: 110px 0 105px ;
+}
+
+.communicate_one{
+    margin-bottom: 105px;
+}
+
+.communicate_content{
+    margin-right: 193px;
+}
+
+.communicate_list{
+    max-width: 360px;
+}
+
+.communicate_text{
+    font-size: 18px;
+    line-height: 26px;
+    color:rgba(43, 41, 45, 1);
+    margin-bottom: 20px;
+}
+
+.communicate_text_bold{
+    font-weight: bold;
+}
+
+.communicate_title{
+    max-width: 300px;
+    font-size: 18px;
+    line-height: 26px;
+    color: rgba(49, 66, 198, 1);
+    border-bottom: 1px solid  rgba(49, 66, 198, 1);
+
+}
+
 
 .understand{
     background:rgba(0, 161, 198, .09);
