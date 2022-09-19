@@ -350,7 +350,6 @@ communicate_text{
 
     .header_ul{
         margin-right: 50px;
-
     }
 
    .item_portfolio img{
@@ -395,7 +394,6 @@ communicate_text{
         max-width: 620px;
         padding: 47px 0;
 
-
     }
 
     .grid_logos{
@@ -426,8 +424,7 @@ communicate_text{
     .v-title{
         margin: 0 auto 14px;
         font-size: 48px;
-        line-height: 52px;
-       
+        line-height: 52px;  
     }
 
     .v-text{
@@ -448,7 +445,6 @@ communicate_text{
 
     .communicate_one{
         flex-direction: column;
-
     }
 
     .communicate_content{
@@ -503,10 +499,10 @@ communicate_text{
         margin-bottom: 0;
     }
     
-
     .portfolio{
         padding: 113px 0;
     }
+
     .portfolio_v-title{
         max-width: 500px;
         font-size: 48px;
@@ -562,10 +558,8 @@ communicate_text{
         padding: 40px 0;
     }
 
-
     .logos{
-        max-width: 430px;
-       
+        max-width: 430px; 
     }
 
     .grid_logos{
@@ -579,6 +573,7 @@ communicate_text{
     .inbox_content{
         margin-bottom: 50px;
     }
+
     .v-pre_title_orange{
         margin: 0 auto;
     }
@@ -626,7 +621,6 @@ communicate_text{
        margin: 0 auto;
     }
 
-
     .logos_img img{
         max-width: 100%;
         padding: 5px;
@@ -640,7 +634,6 @@ communicate_text{
         width: 100%;
     }
 
-    
     .understand{
         padding: 50px 0;
     }
@@ -671,7 +664,6 @@ communicate_text{
    }
 
    .understand_buttons{
-      
        margin: 0 auto;
    }
 
@@ -680,6 +672,7 @@ communicate_text{
         height: 48px;
         margin-bottom: 12px;
    }
+
    .understand_button_white{
         margin: 0 auto;
         width: 290px;
@@ -687,14 +680,9 @@ communicate_text{
         margin-bottom: 40px;
    }
     
-
-   
     .grid_understand{
         margin: 0 auto;
     }
-
-   
-    
 
     .img_understand img{
         max-width: 100%;
@@ -716,9 +704,6 @@ communicate_text{
     .grid_logos{
         margin: 0 auto;
     }
-
-   
-
     .logos_img img{
         max-width: 100%;
         padding: 5px;
@@ -731,6 +716,7 @@ communicate_text{
     .communicate_content{
         text-align: left;
     }
+
     .v-title_blue{
         font-size: 40px;
         line-height: 40px;
@@ -743,56 +729,57 @@ communicate_text{
         line-height: 34px;
         margin-bottom: 30px;
     }
+
     .communicate_image img{
        max-width: 100%;
     }
 
-    
     .understand{
         padding: 50px 0;
     }
 
-   .grid_understand{
+    .grid_understand{
         grid-template-columns: repeat(1, 1fr);
         grid-template-rows: repeat(4, 1fr);
         gap: 15px;
-   }
+    }
 
-   .understand_pre_title{
+    .understand_pre_title{
         margin-bottom: 17px;
-   }
+    }
 
-   .understand_title{
+    .understand_title{
         font-size: 40px;
         line-height: 40px;
         text-align: center;
         letter-spacing: -0.357143px;
         margin-bottom: 18px;
-   }
+    }
 
-   .understand_text{
+    .understand_text{
         max-width: 290px;
         font-size: 24px;
         line-height: 34px;
         margin-bottom: 30px;
-   }
+    }
 
-   .understand_buttons{
+    .understand_buttons{
       
        margin: 0 auto;
-   }
+    }
 
-   .understand_button{
+    .understand_button{
         width: 290px;
         height: 48px;
         margin-bottom: 12px;
-   }
-   .understand_button_white{
+    }
+
+    .understand_button_white{
         margin: 0 auto;
         width: 290px;
         height: 48px;
         margin-bottom: 40px;
-   }
+    }
 
     .portfolio{
         padding: 78px 0 55px;
@@ -834,7 +821,6 @@ communicate_text{
         grid-row: 2/4;
     }
 
-
     .item_portfolio:nth-child(3){
         grid-column: 1/2;
         grid-row: 4/6;
@@ -863,6 +849,10 @@ communicate_text{
         justify-items: end;
     }
 
+    .inbox{
+        padding-bottom: 0;
+    }
+
     .questions{
         padding: 46px 0 46px;
     }
@@ -882,8 +872,7 @@ communicate_text{
 
     .logos_img{
        max-width: 107px;
-       height: 94px;
-        
+       height: 94px;   
     }
 
     .flex_inbox-column{
@@ -897,8 +886,6 @@ communicate_text{
     .container_image{
         margin-bottom: 32px;
     }
-
-   
 
     .info{
         margin: 0 5px;
@@ -934,6 +921,7 @@ communicate_text{
     .communicate_content{
         text-align: left;
     }
+
     .v-title_blue{
         font-size: 40px;
         line-height: 40px;
@@ -951,47 +939,47 @@ communicate_text{
         padding: 50px 0;
     }
 
-   .grid_understand{
+    .grid_understand{
         grid-template-columns: repeat(1, 1fr);
         grid-template-rows: repeat(4, 1fr);
         gap: 15px;
-   }
+    }
 
-   .understand_pre_title{
+    .understand_pre_title{
         margin-bottom: 17px;
-   }
+    }
 
-   .understand_title{
+    .understand_title{
         font-size: 40px;
         line-height: 40px;
         text-align: center;
         letter-spacing: -0.357143px;
         margin-bottom: 18px;
-   }
+    }
 
-   .understand_text{
+    .understand_text{
         max-width: 290px;
         font-size: 24px;
         line-height: 34px;
         margin-bottom: 30px;
-   }
+    }
 
-   .understand_buttons{
-      
+    .understand_buttons{
        margin: 0 auto;
-   }
+    }
 
-   .understand_button{
+    .understand_button{
         width: 290px;
         height: 48px;
         margin-bottom: 12px;
-   }
-   .understand_button_white{
+    }
+
+    .understand_button_white{
         margin: 0 auto;
         width: 290px;
         height: 48px;
         margin-bottom: 40px;
-   }
+    }
 
     .portfolio{
         padding: 78px 0 55px;
@@ -1031,7 +1019,6 @@ communicate_text{
         grid-column: 1/2;
         grid-row: 2/4;
     }
-
 
     .item_portfolio:nth-child(3){
         grid-column: 1/2;
