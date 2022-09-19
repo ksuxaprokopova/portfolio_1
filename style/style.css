@@ -7,22 +7,24 @@ body{
     font-family: 'Work Sans', sans-serif;
 }
 
+
 .header{
     background-color: #F3C6BD;
     padding: 44px 0 73px;
 }
+
 
 .container{
     max-width: 1140px;
     margin: 0 auto;
 }
 
+
 .flex{
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-
 .flex_start{
     justify-content: start;
 }
@@ -31,35 +33,29 @@ body{
 .logo img{
     margin-right: 15px;
 }
-
 .logo_title{
     font-weight: 700;
     font-size: 20px;
     line-height: 25px;
     color: #2B292D;
 }
-
 .logo_text{
     font-size: 18px;
     line-height: 25px;
     color: rgba(43, 41, 45, 0.6);
 }
-
 .header_li:first-of-type{
     margin-right: 30px;
 }
-
 .header_link{
     font-size: 18px;
     line-height: 25px;
     color: #2B292D;
     text-decoration: none;
 }
-
 .header_li{
     position: relative;
 }
-
 .header_li a:hover::before{
     content: "";
     position: absolute;
@@ -69,15 +65,14 @@ body{
     bottom: -5px;
     transition: .7s;
 }
-
 .header_ul{
     margin-right: 77px;
 }
-
 .header_link:hover{
     font-weight: bold;
     transition: .7s;
 }
+
 
 .buttons{
     width: 160px;
@@ -89,11 +84,11 @@ body{
     color: #FFFFFF;
     border: none; 
 }
-
 .buttons:hover{
     cursor: pointer;
     transition: .7s;
     background:  #9198d5;
+    color: #FFFFFF
 }
 
 
@@ -106,11 +101,9 @@ body{
     max-width: 550px;
     margin-right: 29px;
 }
-
 .who{
     max-width: 550px;
 }
-
 .w_title{
     font-weight: 700;
     font-size: 22px;
@@ -118,7 +111,6 @@ body{
     color: #2B292D;
     margin-bottom: 10px;
 }
-
 .w_text{
     font-weight: 400;
     font-size: 22px;
@@ -130,7 +122,6 @@ body{
 .logos{;
     padding: 30px 0;
 }
-
 .logos_img:last-child{
     margin-right: 0;
 }
@@ -140,44 +131,38 @@ body{
    background-color: rgba(252, 240, 227, .4);
    padding: 117px 0 116px;
 }
-
 .inbox_content{
     max-width: 519px;
     width: 100%;
     background-color: #fff;
     padding: 30px 30px 24px;
     box-sizing: border-box;
-    border-bottom: 4px solid #0185D0;;
-   
+    border-bottom: 4px solid #0185D0;; 
 }
-
 .inbox_content_text{
     font-size: 20px;
     line-height: 28px;
     color: #2B292D;
     margin-bottom: 26px;
 }
-
 .inbox_content_text_bold{
     font-weight: 700;
 }
-
 .inbox_name{
     font-weight: 700;
     font-size: 16px;
     line-height: 22px;
     color: #2B292D;
 }
-
 .inbox_position{
     font-size: 16px;
     line-height: 22px;
     color: rgba(43, 41, 45, 0.6);
 }
-
 .inbox_img{
    margin-right: 11px; 
 }
+
 
 .v-pre_title{
     font-size: 22px;
@@ -185,13 +170,13 @@ body{
     font-weight: bold;
     margin-bottom: 26px;
 }
-
 .v-pre_title_orange{
     color: #F1592B;
 }
 .v-pre_title_blue{
     color: rgba(1, 137, 209, 1);
 }
+
 
 .v-title{
     font-weight: bold;
@@ -202,6 +187,7 @@ body{
     max-width: 462px;
     margin-bottom: 26px;
 }
+
 
 .v-text{
     font-size: 24px;
@@ -215,30 +201,21 @@ body{
 .communicate{
     padding: 110px 0 105px ;
 }
-
 .communicate_one{
     margin-bottom: 105px;
 }
-
-.communicate_content{
-  
-}
-
 .communicate_list{
     max-width: 360px;
 }
-
-.communicate_text{
+communicate_text{
     font-size: 18px;
     line-height: 26px;
     color:rgba(43, 41, 45, 1);
     margin-bottom: 20px;
 }
-
 .communicate_text_bold{
     font-weight: bold;
 }
-
 .communicate_title{
     position: relative;
     font-weight: bold;
@@ -246,7 +223,6 @@ body{
     line-height: 26px;
     color: rgba(49, 66, 198, 1);
     text-decoration: rgba(49, 66, 198, .4) ;
-
 }
 
 
@@ -255,7 +231,6 @@ body{
     background:rgba(0, 161, 198, .09);
     padding: 110px 0;
 }
-
 .understand_block{
     max-width: 555px;
     
@@ -263,36 +238,23 @@ body{
   
     text-align: center;
 }
-
 .understand_pre_title{
     max-width: 200px;
     margin: 0 auto;
     margin-bottom: 26px;
 }
-
 .understand_title{
     max-width: 555px;
 }
-
 .understand_text{
     max-width: 555px;
     margin: 0 auto;
     margin-bottom: 34px;
 }
-
 .understand_buttons{
     display: inline-block;
     margin-bottom: 111px;
 }
-
-
-.buttons:hover{
-    cursor: pointer;
-    transition: .7s;
-    background-color: #9198d5;
-    color: #FFFFFF
-}
-
 .button_white{
     width: 158px;
     height: 48px;
@@ -304,15 +266,12 @@ body{
     color: #000000;
     margin-left: 10px;
 }
-
 .understand_button_2:hover{
     cursor: pointer;
     transition: .7s;
     background-color: #9198d5;
-   ;
+   
 }
- 
-
 .grid_understand{
     display: grid;
     gap: 31px;
@@ -320,80 +279,69 @@ body{
     grid-template-rows: repeat(1, 1fr);
     margin-bottom: 110px;
 }
-
 .img_understand{
     text-align: center;
     background-color: #fff;
     padding: 25px 0;  
 }
-
 .img_understand:hover{
     background-color: rgba(49, 65, 197, 1);
     cursor: pointer;
     transition: .7s;
     color: #FFFFFF;
 }
-
 .img_understand:hover p{
     color: #ffffff;
 }
-
 .img_understand_text{
     font-weight: bold;
     font-size: 22px;
     line-height: 28px;
     text-align: center;
-    color: #2B292D;
-    
+    color: #2B292D;   
 }
-
 .img_understand_text:hover{
     color:#ffffff ;
     cursor: pointer;
     transition: .7s;
 }
 
+
 .portfolio{
     padding: 90px 0;
-    
 }
 .portfolio_about{
    max-width: 588px;
    margin: 0 auto;
    text-align: center;
 }
-
 .portfolio_v-title{
     max-width: 588px;
 }
-
 .portfolio_v-text{
     max-width: 554px;
     margin-bottom: 97px;
 }
-
-
 .grid_portfolio{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
     gap: 45px;
 }
-
 .item_portfolio{
     width: 100%;
     height: 100%;
     transition: opacity .7s;
 }
-
 .item_portfolio:hover{
     cursor: pointer;
     opacity: .7;
 }
-
 .item_portfolio:nth-child(3), .item_portfolio:nth-child(4){
     grid-row: span 2;
 }
+
+
 
 @media screen and ( max-width: 1200px) {
     .container{
@@ -409,6 +357,7 @@ body{
     max-width: 100%;
    }
 }
+
 
 
 @media  screen and ( max-width: 1090px) {
@@ -598,6 +547,8 @@ body{
 
 }
 
+
+
 @media screen and (max-width: 800px) {
     .container{
         max-width: 500px;
@@ -633,6 +584,8 @@ body{
     }
 }
 
+
+
 @media screen and (max-width: 550px) {
     .container{
         max-width: 430px;
@@ -657,6 +610,8 @@ body{
         margin: 0;
     }
 }
+
+
 
 @media screen and (max-width: 480px) {
     .container{
@@ -685,9 +640,52 @@ body{
         width: 100%;
     }
 
+    
     .understand{
-        margin: 0 auto;
+        padding: 50px 0;
     }
+
+   .grid_understand{
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+        gap: 40px;
+   }
+
+   .understand_pre_title{
+        margin-bottom: 17px;
+   }
+
+   .understand_title{
+        font-size: 40px;
+        line-height: 40px;
+        text-align: center;
+        letter-spacing: -0.357143px;
+        margin-bottom: 18px;
+   }
+
+   .understand_text{
+        max-width: 290px;
+        font-size: 24px;
+        line-height: 34px;
+        margin-bottom: 30px;
+   }
+
+   .understand_buttons{
+      
+       margin: 0 auto;
+   }
+
+   .understand_button{
+        width: 290px;
+        height: 48px;
+        margin-bottom: 12px;
+   }
+   .understand_button_white{
+        margin: 0 auto;
+        width: 290px;
+        height: 48px;
+        margin-bottom: 40px;
+   }
     
 
    
@@ -703,6 +701,8 @@ body{
     }
    
 }
+
+
 
 @media screen and (max-width: 360px) {
     .container{
@@ -842,6 +842,7 @@ body{
 }
 
 
+
 @media screen and (max-width: 320px) {
     .container{
         max-width: 290px;
@@ -852,10 +853,14 @@ body{
         padding: 8px 0;
     }
 
+    .grid_logos{
+        gap: 10px;
+    }
+
     .logos_img img{
         max-width: 100%;
         margin-right: 13px;
-        justify-content: top;
+        justify-items: end;
     }
 
     .questions{
