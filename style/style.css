@@ -668,8 +668,13 @@ body{
     }
 
     .logos{
-        max-width: 200px;
-        margin-left: 50px;
+       margin: 0 auto;
+    }
+
+
+    .logos_img img{
+        max-width: 100%;
+        padding: 5px;
     }
 
     .grid_logos{
@@ -683,17 +688,20 @@ body{
     .understand{
         margin: 0 auto;
     }
-    .
+    
 
-    .portfolio{
-        
-    }
+   
     .grid_understand{
         margin: 0 auto;
     }
-    .portfolio {
-       
+
+   
+    
+
+    .img_understand img{
+        max-width: 100%;
     }
+   
 }
 
 @media screen and (max-width: 360px) {
@@ -705,22 +713,15 @@ body{
         background-color: #fff;
     }
     
-    .logos{
+    .grid_logos{
         margin: 0 auto;
-        justify-items: center;
-        vertical-align: center;
     }
 
-    .logos_img{
-        max-width: 107px;
-        height: 94px;
-         
-     }
+   
 
     .logos_img img{
         max-width: 100%;
         padding: 5px;
-        color: #000000;
     }
 
     .communicate{
@@ -851,8 +852,10 @@ body{
         padding: 8px 0;
     }
 
-    .logo img{
+    .logos_img img{
+        max-width: 100%;
         margin-right: 13px;
+        justify-content: top;
     }
 
     .questions{
