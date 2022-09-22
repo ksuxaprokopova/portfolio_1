@@ -701,12 +701,14 @@ communicate_text{
         background-color: #fff;
     }
     
+    .logos{
+        padding: 20px  0;
+    }
     .grid_logos{
         margin: 0 auto;
     }
     .logos_img img{
         max-width: 100%;
-        padding: 5px;
     }
 
     .communicate{
@@ -834,68 +836,55 @@ communicate_text{
         max-width: 290px;
     }
 
+
     .header{
         background-color: #fff;
         padding: 8px 0;
     }
 
-    .grid_logos{
-        gap: 10px;
-    }
-
-    .logos_img img{
-        max-width: 100%;
-        margin-right: 13px;
-        justify-items: end;
-    }
-
-    .inbox{
-        padding-bottom: 0;
-    }
 
     .questions{
         padding: 46px 0 46px;
     }
-
     .what{
         max-width: 290px;
         margin-bottom: 20px;
     }
-
     .who{
         max-width: 290px;
     }
 
+
     .logos{
         padding: 0;
     }
-
     .logos_img{
        max-width: 107px;
-       height: 94px;   
+       align-self: center; 
+       justify-self: center;  
+    }
+    .logos_img img{
+        max-width: 100%;
+       
     }
 
+   
     .flex_inbox-column{
         flex-direction: column;
     }
-
     .inbox{
         padding: 50px 0 50px;
     }
-
     .container_image{
         margin-bottom: 32px;
     }
-
     .info{
         margin: 0 5px;
         text-align: start;
     }
-
     .v-pre_title{
         margin-bottom: 17px;
     }
-
     .v-title{
         max-width: 290px;
         font-size: 40px;
@@ -903,52 +892,46 @@ communicate_text{
         letter-spacing: -0.357143px;
         margin-bottom: 18px;
     }
-
     .v-text{
         font-size: 24px;
         line-height: 34px;
     }
-
     .inbox_content{
         max-width: 290px;
         padding: 30px 20px;
     }
 
+
     .communicate{
         padding: 53px 0;
     }
-
     .communicate_content{
         text-align: left;
     }
-
     .v-title_blue{
         font-size: 40px;
         line-height: 40px;
         letter-spacing: -0.357143px;
         margin-bottom: 18px;
     }
-
     .v-text_blue{
         font-size: 24px;
         line-height: 34px;
         margin-bottom: 30px;
     }
 
+
     .understand{
         padding: 50px 0;
     }
-
     .grid_understand{
         grid-template-columns: repeat(1, 1fr);
         grid-template-rows: repeat(4, 1fr);
         gap: 15px;
     }
-
     .understand_pre_title{
         margin-bottom: 17px;
     }
-
     .understand_title{
         font-size: 40px;
         line-height: 40px;
@@ -956,24 +939,20 @@ communicate_text{
         letter-spacing: -0.357143px;
         margin-bottom: 18px;
     }
-
     .understand_text{
         max-width: 290px;
         font-size: 24px;
         line-height: 34px;
         margin-bottom: 30px;
     }
-
     .understand_buttons{
        margin: 0 auto;
     }
-
     .understand_button{
         width: 290px;
         height: 48px;
         margin-bottom: 12px;
     }
-
     .understand_button_white{
         margin: 0 auto;
         width: 290px;
@@ -981,10 +960,10 @@ communicate_text{
         margin-bottom: 40px;
     }
 
+
     .portfolio{
         padding: 78px 0 55px;
     }
-
     .portfolio_v-title{
         max-width: 290px;
         font-size: 40px;
@@ -992,7 +971,6 @@ communicate_text{
         text-align: center;
         margin-bottom: 18px;
     }
-   
     .portfolio_v-text{
         max-width: 290px;
         font-size: 24px;
@@ -1000,26 +978,21 @@ communicate_text{
         text-align: center;
         margin-bottom: 25px;
     }
-
     .grid_portfolio{
         grid-template-columns: repeat(1, 1fr);
         grid-template-rows: repeat(7, 1fr);
         gap: 17px;
     }
-
     .item_portfolio:nth-child(2){
         display: none;
     }
-
     .item_portfolio:nth-child(7){
         display: none;
     }
-
     .item_portfolio:nth-child(4){
         grid-column: 1/2;
         grid-row: 2/4;
     }
-
     .item_portfolio:nth-child(3){
         grid-column: 1/2;
         grid-row: 4/6;
