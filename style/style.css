@@ -399,7 +399,7 @@ communicate_text{
 
 
 .start_data_input{
-    width: 385px;
+    width: 375px;
     height: 48px;
     padding-left: 15px;
     background: #FFFFFF;
@@ -478,6 +478,7 @@ communicate_text{
 }
 
 .start_checkbox_li{
+    margin-left: 10px;
     font-size: 12px;
     line-height: 22px;
     color: rgba(49, 66, 198, 1);
@@ -498,6 +499,16 @@ communicate_text{
 
    .item_portfolio img{
     max-width: 100%;
+   }
+
+   .start_data_button{
+    margin-top: 10px;
+    margin-right: 0;
+   }
+
+   .start_checkbox{
+    flex-direction: column;
+    
    }
 }
 
@@ -683,6 +694,58 @@ communicate_text{
     .item_portfolio:nth-child(2){
         grid-row: 4/5;
         grid-column: 2/3;
+    }
+    .start{
+        padding: 76px 0 72px;
+    }
+
+   
+
+    .start_box{
+        margin: o auto;
+        margin-bottom: 13px;
+       
+    }
+
+    .start_start{
+        flex-direction: column-reverse;
+    }
+
+    .start_img{
+        margin: 0 auto;
+    }
+
+    .start_v-title{
+        max-width: 325px;
+        font-size: 48px;
+        line-height: 40px;
+        text-align: center;
+        letter-spacing: -0.357143px;
+        margin-bottom: 51px;
+    }
+
+    .start_v-text{
+        max-width: 555px;
+        font-weight: 400;
+      
+        text-align: center;
+    }
+
+    .start_data_input{
+        width: 290px;
+    }
+
+    .start_data_input::placeholder{
+        text-align: center;
+    }
+
+    .start_data_button{
+        width: 290px;
+        margin-left: 18px;
+    }
+
+    .start_checkbox{
+        justify-content: flex-start;
     }
 
 }
