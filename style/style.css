@@ -88,7 +88,8 @@ body{
     cursor: pointer;
     transition: .7s;
     background:  #9198d5;
-    color: #FFFFFF
+    color: #FFFFFF;
+    border: none;
 }
 
 
@@ -119,7 +120,7 @@ body{
 }
 
 
-.logos{;
+.logos{
     padding: 30px 0;
 }
 .logos_img:last-child{
@@ -233,18 +234,18 @@ communicate_text{
 }
 .understand_block{
     max-width: 555px;
-    
     margin: 0 auto;
-  
     text-align: center;
 }
 .understand_pre_title{
     max-width: 200px;
     margin: 0 auto;
-    margin-bottom: 26px;
+    margin-bottom: 24px;
 }
 .understand_title{
     max-width: 555px;
+    margin: 0 auto;
+    margin-bottom: 30px;
 }
 .understand_text{
     max-width: 555px;
@@ -272,6 +273,7 @@ communicate_text{
     background-color: #9198d5;
    
 }
+
 .grid_understand{
     display: grid;
     gap: 31px;
@@ -279,6 +281,7 @@ communicate_text{
     grid-template-rows: repeat(1, 1fr);
     margin-bottom: 110px;
 }
+
 .img_understand{
     text-align: center;
     background-color: #fff;
@@ -289,6 +292,7 @@ communicate_text{
     cursor: pointer;
     transition: .7s;
     color: #FFFFFF;
+    transform: rotate(30deg);
 }
 .img_understand:hover p{
     color: #ffffff;
@@ -310,35 +314,175 @@ communicate_text{
 .portfolio{
     padding: 90px 0;
 }
+
 .portfolio_about{
    max-width: 588px;
    margin: 0 auto;
    text-align: center;
 }
+
 .portfolio_v-title{
     max-width: 588px;
+    margin: 0 auto;
 }
+
 .portfolio_v-text{
     max-width: 554px;
+    margin: 0 auto;
     margin-bottom: 97px;
 }
+
 .grid_portfolio{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
     gap: 45px;
 }
+
 .item_portfolio{
     width: 100%;
     height: 100%;
-    transition: opacity .7s;
 }
+
 .item_portfolio:hover{
     cursor: pointer;
     opacity: .7;
+    transition-duration: 1s;
+   
 }
+
 .item_portfolio:nth-child(3), .item_portfolio:nth-child(4){
     grid-row: span 2;
+}
+
+
+
+.start{
+  background-color: rgba(244, 245, 247, 1);
+}
+
+.start_img{
+    margin: 73px 122px; 
+}
+
+.start_box_content{
+    
+}
+
+.start_v-title{
+    max-width: 555px;
+    font-size: 40px;
+    line-height: 40px;
+    letter-spacing: -0.25px;
+    color: #2B292D;
+    margin-top: 33px;
+    margin-bottom: 12px;
+}
+
+.start_v-text{
+    max-width: 555px;
+    font-size: 22px;
+    line-height: 32px;
+}
+
+.start_box_content{
+    font-size: 40px;
+    line-height: 40px;
+    letter-spacing: -0.25px;
+    color: #2B292D;
+    margin-bottom: 26px;
+}
+
+.start_box{
+   margin-right: 75px;
+}
+
+
+.start_data_input{
+    width: 385px;
+    height: 48px;
+    padding-left: 15px;
+    background: #FFFFFF;
+    border: 1px solid rgba(43, 41, 45, 0.2);
+    border-radius: 2px;
+    box-sizing: border-box;
+}
+
+.start_data_input::placeholder{
+    font-family: 'WorkSans';
+    font-size: 18px;
+    line-height: 13px;
+    color: #2B292D;
+}
+
+.start_data_button{
+    margin-left: 10px;
+}
+
+.start_checkbox{
+    max-width: 555px;
+    justify-content: start;
+}
+
+.fake{
+    width: 5px;
+    height: 5px;
+    border: 1px solid ;
+    color: rgba(43, 41, 45, 0.6);
+    display: inline-block;
+    position: relative;
+}
+
+.fake::before{
+    content: "";
+    position: absolute;
+    background-color:  rgba(49, 66, 198, 1);
+    width: 3px;
+    height: 1px;
+    left: -50%;
+    top: 30%;
+    opacity: 0;
+    transform: rotate(50deg);
+}
+
+.checkbox:checked ~ .fake::before{
+    opacity: 1;
+    transition: .5s;
+}
+
+.fake::after{
+    content: "";
+    position: absolute;
+    width: 5px;
+    height: 1px;
+    background-color: rgba(49, 66, 198, 1);
+    left: -10%;
+    top: 30%;
+    opacity: 0;
+    transform: rotate(120deg);
+}
+
+.checkbox:checked ~ .fake::after{
+    opacity: 1;
+    transition: .5s;
+}
+
+.checkbox{
+    opacity: 0;
+}
+
+.text{
+    font-size: 10px;
+    line-height: 22px;    
+    color: rgba(43, 41, 45, 0.6);
+}
+
+.start_checkbox_li{
+    font-size: 12px;
+    line-height: 22px;
+    color: rgba(49, 66, 198, 1);
+   
+
 }
 
 
@@ -832,6 +976,7 @@ communicate_text{
 
 
 @media screen and (max-width: 320px) {
+
     .container{
         max-width: 290px;
     }
@@ -854,10 +999,8 @@ communicate_text{
         max-width: 290px;
     }
 
+    
 
-    .logos{
-        padding: 0;
-    }
     .logos_img{
        max-width: 107px;
        align-self: center; 
