@@ -405,6 +405,7 @@ body{
 .portfolio_v-title{
     max-width: 588px;
     margin: 0 auto;
+    margin-bottom: 26px;
 }
 
 .portfolio_v-text{
@@ -633,6 +634,13 @@ body{
     text-decoration: none;
 }
 
+.social_icons:not(:last-of-type){
+    margin-right: 20px;
+}
+
+
+
+
 @media screen and ( max-width: 1200px) {
     .container{
         max-width: 1040px;
@@ -665,8 +673,6 @@ body{
        margin-left: 340px;
    }
 }
-
-
 
 @media  screen and ( max-width: 1090px) {
     .container{
@@ -748,7 +754,7 @@ body{
     }
 
     .main_left{
-        
+        position: absolute;
     }
 
     .title{
@@ -1072,8 +1078,6 @@ body{
 
 }
 
-
-
 @media screen and (max-width: 800px) {
     .container{
         max-width: 500px;
@@ -1082,6 +1086,8 @@ body{
     .header{
         padding: 25px 0;
     }
+
+  
     .main_img{
         max-width: 100%;
     }
@@ -1122,6 +1128,10 @@ body{
         margin-bottom: 10px;
     }
 
+    .start_checkbox{
+        max-width: 270px;
+    }
+
     .start_data_button{
         margin: 0;
     }
@@ -1135,8 +1145,6 @@ body{
         align-items: flex-start;
     }
 }
-
-
 
 @media screen and (max-width: 550px) {
     .container{
@@ -1162,8 +1170,6 @@ body{
         margin: 0;
     }
 }
-
-
 
 @media screen and (max-width: 480px) {
     .container{
@@ -1250,8 +1256,6 @@ body{
     }
    
 }
-
-
 
 @media screen and (max-width: 360px) {
     .container{
@@ -1489,6 +1493,10 @@ body{
         padding: 0;
     }
 
+    .footer_logo{
+       margin-bottom: 70px;
+    }
+
     .line_one{
         display: block;
         margin-bottom: 30px;
@@ -1502,9 +1510,12 @@ body{
         margin-left: 25px;
         padding-bottom: 15px;
     }
+
+    .footer_img_pictures{
+        margin-right: 10px;
+        margin-left: 30px;
+    }
 }
-
-
 
 @media screen and (max-width: 320px) {
 
