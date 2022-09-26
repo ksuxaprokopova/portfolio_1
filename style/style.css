@@ -176,6 +176,11 @@ body{
     color: rgba(48, 64, 196, 1);
 }
 
+.main_button_white:hover{
+    color: #FFFFFF ;
+    transition: .7s;
+}
+
 .main_buttons:first-of-type{
     margin-right: 10px;
 }
@@ -441,9 +446,6 @@ body{
     margin: 73px 122px; 
 }
 
-.start_box_content{
-    
-}
 
 .start_v-title{
     max-width: 555px;
@@ -471,6 +473,10 @@ body{
 
 .start_box{
    margin-right: 75px;
+}
+
+.start_data{
+    margin-bottom: 10px;
 }
 
 
@@ -501,10 +507,11 @@ body{
 }
 
 .fake{
-    width: 10px;
-    height: 10px;
+    width: 13px;
+    height: 13px;
     border: 1px solid ;
-    color: rgba(43, 41, 45, 0.6);
+    background-color: #fff;
+    color: rgba(43, 41, 45, 0.2);
     display: inline-block;
     position: relative;
 }
@@ -513,10 +520,10 @@ body{
     content: "";
     position: absolute;
     background-color:  rgba(49, 66, 198, 1);
-    width: 7px;
-    height: 2px;
+    width: 10px;
+    height: 3px;
     left: -30%;
-    top: 30%;
+    top: 50%;
     opacity: 0;
     transform: rotate(50deg);
 }
@@ -529,8 +536,8 @@ body{
 .fake::after{
     content: "";
     position: absolute;
-    width: 10px;
-    height: 2px;
+    width: 15px;
+    height: 3px;
     background-color: rgba(49, 66, 198, 1);
     left: 10%;
     top: 30%;
@@ -559,11 +566,72 @@ body{
     font-size: 12px;
     line-height: 22px;
     color: rgba(49, 66, 198, 1);
-   
-
 }
 
 
+
+.footer{
+    padding: 91px 0 37px;
+}
+
+.footer_content{
+    align-items: start;
+    padding: 48px 0 59px;
+}
+
+.footer_logo{
+    margin-bottom: 30px;
+    justify-content: start;
+}
+
+.line_one{
+    display: none;
+}
+
+.footer_text{
+    font-size: 18px;
+    line-height: 26px;
+    max-width: 360px;
+    margin-bottom: 25px;
+    color: rgba(43, 41, 45, 0.6);
+}
+
+.footer_img{
+    justify-content: start;
+}
+
+.footer_img_pictures{
+    margin-right: 10px;
+}
+    
+
+
+.footer_title{
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 28px;
+    color: #2B292D;
+    margin-bottom: 18px;
+}
+
+.footer_link a{
+    color: rgba(43, 41, 45, 0.6);
+    font-size: 18px;
+    line-height: 30px;
+    text-decoration: none;
+}
+
+.footer_bottom{
+    padding: 13px 0 52px;
+}
+
+.footer_bottom_link a{
+    color: rgba(43, 41, 45, 0.6);
+    font-size: 14px;
+    line-height: 22px;
+    margin-right: 20px;
+    text-decoration: none;
+}
 
 @media screen and ( max-width: 1200px) {
     .container{
@@ -933,6 +1001,75 @@ body{
         margin-left: -187px;
     }
 
+    .footer_content{
+        flex-direction: column;
+        padding-bottom: 0;
+    }
+
+    .footer_one{
+        margin: 0 auto;
+    }
+
+    .footer_logo_title{
+        text-align: center;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 25px;
+    }
+
+    .footer_logo{
+        flex-direction: column;
+        justify-content: center;
+       
+    }
+
+    .footer_logo img{
+        margin: 0 auto;
+        margin-bottom: 32px;
+    }
+
+    .footer_logo_text{
+        display: block;
+        font-size: 24px;
+        line-height: 25px;
+    }
+
+    .footer_logo_content{
+        max-width: 343px;
+    }
+
+    .footer_text{
+        display: none;
+    }
+    .footer_img_pictures{
+        margin-right: 46px;
+       
+    }
+
+    .footer_links{
+       margin-left: 230px;
+        text-align: left;
+        margin-bottom: 25px;
+    }
+
+    .footer_img{
+        margin-bottom: 32px;
+    }
+    .line{
+        display: none;
+    }
+
+    .footer_bottom{
+        flex-direction: column;
+        align-items: start;
+        margin-left: 383px;
+    }
+
+    .footer_bottom_link{
+        margin-bottom: 27px;
+    }
+       
+
 }
 
 
@@ -987,6 +1124,15 @@ body{
 
     .start_data_button{
         margin: 0;
+    }
+
+    .footer_links{
+      margin: 0;
+      margin-bottom: 25px;
+    }
+    .footer_bottom{
+        margin: 0 auto;
+        align-items: flex-start;
     }
 }
 
@@ -1337,6 +1483,24 @@ body{
     .start_checkbox_li{
         margin-left: 0;
        
+    }
+
+    .footer{
+        padding: 0;
+    }
+
+    .line_one{
+        display: block;
+        margin-bottom: 30px;
+    }
+
+    .footer_links{
+        margin-left: 0;
+    }
+
+    .footer_bottom{
+        margin-left: 25px;
+        padding-bottom: 15px;
     }
 }
 
