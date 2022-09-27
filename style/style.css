@@ -473,7 +473,8 @@ body{
 }
 
 .start_box{
-   margin-right: 75px;
+  
+    
 }
 
 .start_data{
@@ -634,7 +635,7 @@ body{
     text-decoration: none;
 }
 
-.social_icons:not(:last-of-type){
+.social_icons a:not(:last-of-type){
     margin-right: 20px;
 }
 
@@ -651,11 +652,11 @@ body{
     }
 
    .item_portfolio img{
-    max-width: 100%;
+        max-width: 100%;
    }
 
    .start_data_input{
-    width: 280px;
+        width: 280px;
    }
 
    .start_data_button{
@@ -666,13 +667,18 @@ body{
 
    .start_checkbox{
     flex-direction: column;
-    justify-content: start;
+        align-items: flex-start;
    }
 
    .start_checkbox_li{
-       margin-left: 340px;
+      margin-left: 0;
    }
 }
+
+
+
+
+
 
 @media  screen and ( max-width: 1090px) {
     .container{
@@ -742,6 +748,10 @@ body{
     .header_li{
         margin-bottom: 20px;
     }
+
+    .main .flex{
+       align-items: flex-start;
+    }
    
     .main_content{
         flex-direction: column;
@@ -754,7 +764,8 @@ body{
     }
 
     .main_left{
-        position: absolute;
+        position: static;
+        
     }
 
     .title{
@@ -777,6 +788,7 @@ body{
 
     .main_img{
         max-width: 620px;
+        margin-left: 83px;
     }
 
     .main_button, .main_button_white{
@@ -1000,14 +1012,12 @@ body{
     }
 
     .start_checkbox{
-        text-align: start;
-    }
-
-    .start_checkbox_li{
-        margin-left: -187px;
+        text-align: left;
+        
     }
 
     .footer_content{
+        max-width: 345px;
         flex-direction: column;
         padding-bottom: 0;
     }
@@ -1042,6 +1052,7 @@ body{
 
     .footer_logo_content{
         max-width: 343px;
+        text-align: center;
     }
 
     .footer_text{
@@ -1052,9 +1063,11 @@ body{
        
     }
 
+  
+
     .footer_links{
-       margin-left: 230px;
-        text-align: left;
+        max-width: 280px;
+       justify-content: start;
         margin-bottom: 25px;
     }
 
@@ -1067,8 +1080,11 @@ body{
 
     .footer_bottom{
         flex-direction: column;
-        align-items: start;
-        margin-left: 383px;
+        max-width: 345px;    
+    }
+
+    .footer_bottom .flex{
+       align-items: flex-start;
     }
 
     .footer_bottom_link{
@@ -1077,6 +1093,10 @@ body{
        
 
 }
+
+
+
+
 
 @media screen and (max-width: 800px) {
     .container{
@@ -1087,9 +1107,17 @@ body{
         padding: 25px 0;
     }
 
+    .main{
+        padding-bottom: 60px;
+    }
+    
+    .main_left{
+        margin-bottom: 30px;
+    }
   
     .main_img{
         max-width: 100%;
+        margin-left: 0;
     }
 
     .questions{
@@ -1130,6 +1158,7 @@ body{
 
     .start_checkbox{
         max-width: 270px;
+        margin: 0 auto;
     }
 
     .start_data_button{
@@ -1145,6 +1174,11 @@ body{
         align-items: flex-start;
     }
 }
+
+
+
+
+
 
 @media screen and (max-width: 550px) {
     .container{
@@ -1170,6 +1204,11 @@ body{
         margin: 0;
     }
 }
+
+
+
+
+
 
 @media screen and (max-width: 480px) {
     .container{
@@ -1257,6 +1296,11 @@ body{
    
 }
 
+
+
+
+
+
 @media screen and (max-width: 360px) {
     .container{
         max-width: 300px;
@@ -1322,6 +1366,18 @@ body{
 
     .communicate_content{
         text-align: left;
+    }
+    .communicate_list_top{
+        flex-direction: column;
+    }
+
+    .communicate_list{
+        margin-bottom: 33px;
+    }
+      
+
+    .com_list{
+        display: block;
     }
 
     .v-title_blue{
@@ -1681,6 +1737,10 @@ body{
     .item_portfolio:nth-child(3){
         grid-column: 1/2;
         grid-row: 4/6;
+    }
+
+    .footer_logo_text{
+        text-align: center;
     }
 }
   
