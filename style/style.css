@@ -1201,7 +1201,9 @@ body{
         display: none;
     }
 
-    .footer_bottom{
+    
+
+    .footer_bottom_body{
         flex-direction: column;
         max-width: 345px;    
     }
@@ -1211,6 +1213,7 @@ body{
     }
 
     .footer_bottom_link{
+        
         margin-bottom: 27px;
     }
        
@@ -1739,8 +1742,11 @@ body{
     }
 
     .footer_bottom{
-        margin-left: 25px;
         padding-bottom: 15px;
+    }
+
+    .footer_bottom .flex{
+        justify-content: flex-start;
     }
 
     .footer_img_pictures{
@@ -1918,5 +1924,6 @@ body{
     .footer_logo_text{
         text-align: center;
     }
+   
 }
   
