@@ -236,11 +236,11 @@ body{
 
 .features_center{
     min-width: 390px;
-    max-width: 465px;
+    max-width: 500px;
     margin-right: 125px;
 }
 
-.features_v-ore_title{
+.features_v-pre_title{
     color: rgba(0, 155, 77, 1);
     margin-bottom: 24px;
 }
@@ -272,11 +272,22 @@ body{
 }
 
 .features_img{
+    position: relative;
     margin-right: 15px;
 }
 
 .features_img_click{
+    position: absolute;
     display: none;
+}
+
+.features_click{
+    
+    color: rgba(49, 66, 198, 1);
+}
+.features_border{
+    border-bottom: 2px solid rgba(49, 66, 198, 1);
+    margin-bottom: 17px;
 }
 
 .features_title{
@@ -287,10 +298,11 @@ body{
 }
 
 .features_text{
+    text-align: left;
     font-size: 18px;
     line-height: 26px;
     color: #2B292D;
-    margin-bottom: 20px;
+    
     display: none;
 }
 
@@ -298,6 +310,7 @@ body{
     max-width: 1440px;
     transform: translateX(28px);
 }
+
 
 .inbox{
    background-color: rgba(252, 240, 227, .4);
@@ -1006,6 +1019,37 @@ body{
         justify-items: center;
     }
 
+    .features_content{
+        flex-direction: column;
+    }
+
+    .features_center{
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .features_v-pre_title{
+        margin-bottom: 12px;
+    }
+
+    .features_v-title{
+        max-width: 462px;
+        font-size: 48px;
+        line-height: 56px;
+        margin-bottom: 12px;
+    }
+
+    .features_v-text{
+        max-width: 392px;
+        font-size: 20px;
+        line-height: 34px;
+    }
+
+    .features_right{
+        max-width: 538px;
+        margin-top: 49px;
+    }
+
 
     .flex_inbox-column{
         flex-direction: column-reverse;
@@ -1336,6 +1380,14 @@ body{
         gap: 15px 30px;
     }
 
+    .features_center{
+        text-align: left;
+    }
+
+    .v-text{
+        margin: 0;
+    }
+
     .inbox{
         padding: 40px 0;
     }
@@ -1402,6 +1454,10 @@ body{
     .v-title{
         font-size: 36px;
         line-height: 48px;
+    }
+
+    .features_center{
+        margin: 0;
     }
 
     .understand{
@@ -1572,6 +1628,44 @@ body{
 
     .header{
         background-color: #fff;
+    }
+
+
+    .features_center{
+        margin-left: 15px;
+    }
+    
+
+    .features_left{
+        display: none;
+    }
+
+    .features_right{
+        max-width: 80%;
+        transform: translateX(-48px);
+    }
+
+    .features_v-pre_title{
+        margin-bottom: 17px;
+    }
+
+    .features_v-title{
+        max-width: 290px;
+        font-size: 40px;
+        line-height: 40px;
+        letter-spacing: -0.357143px;
+        margin: 0;
+        margin-bottom: 15px;
+    }
+
+    .features_v-text{
+        max-width: 290px;
+        font-size: 24px;
+        line-height: 34px;
+    }
+
+    .features_items{
+        max-width: 289px;
     }
 
     .main{
