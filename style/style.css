@@ -1853,7 +1853,7 @@ body{
     }
 
     .about_items_right p:hover{
-        background-color: rgba(49, 65, 197, 1);
+        background-color: transparent;
     }
 
     .about_icon{
