@@ -1,0 +1,13 @@
+.bx-pager{
+    display: flex;
+    justify-content: center;
+}
+
+.bx-pager-item{
+   
+}
+
+.bx-pager-item:not(:last-child){
+    margin-right: 13px;
+}
+

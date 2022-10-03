@@ -8,7 +8,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css" integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.15/jquery.bxslider.min.js" integrity="sha512-p55Bpm5gf7tvTsmkwyszUe4oVMwxJMoff7Jq3J/oHaBk+tNQvDKNz9/gLxn9vyCjgd6SAoqLnL13fnuZzCYAUA==" crossorigin="anonymous" referrerpolicy="no-referrer">
     <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/carusel.css">
     <title>Portfolio1</title>
 </head>
 <body>
@@ -35,7 +37,7 @@
                 <nav class="header_nav flex">
                 <ul class="header_ul flex">
                     <li class="header_li">
-                        <a class="header_link" href="#">Home</a>
+                        <a class="header_link" id="about_link" href="#">Home</a>
                     </li>
                     <li class="header_li">
                         <a class="header_link" href="#">Stories</a>
@@ -55,7 +57,7 @@
                 <p class="main_text">Create live segments and target the right people for messages based on their behaviors.</p>
                 <div class="main_buttons">
                     <button class="buttons main_button">Get Started</button>
-                    <button class="button_white main_button_white">Learn More</button>
+                    <button id="open_modal" class="button_white main_button_white">Learn More</button>
                 </div>
            </div>
            <div>
@@ -127,7 +129,7 @@
                             <svg class="features_img_click" width="23" height="25" viewBox="0 0 23 25" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path fill-rule="evenodd" clip-rule="evenodd" d="M0 5.95238L11.5 0L23 5.95238V8.33333H0V5.95238ZM2.42105 10.7143V19.0476H6.05263V10.7143H2.42105ZM9.68421 10.7143V19.0476H13.3158V10.7143H9.68421ZM23 21.4286V25H0V21.4286H23ZM16.9474 10.7143V19.0476H20.5789V10.7143H16.9474Z" fill="#3142C6"/>
                             </svg>
-                             <h3 class="features_title">Engage users</h3>
+                             <h3 class="features_title ">Engage users</h3>
                         </div>
                         <p class="features_text">Everything you need to start building – including open-source code, documentation.</p>
                     </div>
@@ -246,7 +248,34 @@
             <img src="./img/logos/6.svg" alt="">
          </div>
     </section>
-    <section class="about">
+    <section class="slider">
+        <div class="container">
+             <div class="carusel">
+                <div class="carusel_items">
+                    <h3 class="carusel_title">Trusted by the world’s most innovative businesses – big and small</h3>
+                    <p class="carusel_text">“Comprehensive set of startup tools for all imaginable entrepreneurial needs. Create landing pages, send emails, find freelancers. Perfect for sales, marketing, and support”</p>
+                    <p class="carusel_name">Viella Malkovich</p>
+                    <p class="carusel_position">Creative Director at Johnson<p>
+                </div>
+                <div class="carusel_items">
+                    <h3 class="carusel_title">Lorem ipsum dolor sit amet.</h3>
+                    <p class="carusel_text">“Comprehensive set of startup tools for all imaginable entrepreneurial needs. Create landing pages, send emails, find freelancers. Perfect for sales, marketing, and support”</p>
+                    <p class="carusel_name">Viella Malkovich</p>
+                    <p class="carusel_position">Creative Director at Johnson<p>
+                </div>
+                <div class="carusel_items">
+                    <h3 class="carusel_title">Lorem, ipsum dolor.</h3>
+                    <p class="carusel_text">“Comprehensive set of startup tools for all imaginable entrepreneurial needs. Create landing pages, send emails, find freelancers. Perfect for sales, marketing, and support”</p>
+                    <p class="carusel_name">Viella Malkovich</p>
+                    <p class="carusel_position">Creative Director at Johnson<p>
+                </div>
+             </div>
+        </div>
+        <div class="slider_right">
+            <img src="./img/slider/ouch.png" alt="pictures">
+        </div>
+    </section>
+    <section id="about" class="about ">
         <div class="container">
             <div class="about_hat">
                 <h3 class="about_hat_title">We’re hiring</h3>
@@ -337,7 +366,7 @@
                     <label  class="start_data_label">
                         <input class="start_data_input" type="email" placeholder="Enter your email" required>   
                     </label>
-                    <button class="buttons start_data_button">
+                    <button  class="buttons start_data_button">
                         Get Started
                     </button>
             </form>   
@@ -363,11 +392,7 @@
                          <span class="fake"></span>
                          <span class="text">Check out</span>
                     </label>
-                
-                   
-                    
-                         <a class="start_checkbox_li start_checkbox_link" href="#">Terms of Use</a>
-                  
+                    <a class="start_checkbox_li start_checkbox_link" href="#">Terms of Use</a>
                 </form>
             </div>
         </div>
@@ -452,7 +477,21 @@
             </div>
         </div>
     </footer>
+    <div class="modal_overlay">
+        <div class="modal">
+            <h2 class="v-title">Thanks</h2>
+            <p class="v-text">expect an answer</p>
+            <p class="close">x</p>
+        </div>
+    </div>
+    <div id="up">
+        <span>></span>
+    </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.15/jquery.bxslider.min.js" integrity="sha512-p55Bpm5gf7tvTsmkwyszUe4oVMwxJMoff7Jq3J/oHaBk+tNQvDKNz9/gLxn9vyCjgd6SAoqLnL13fnuZzCYAUA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./script/modal.js"></script>
     <script src="./script/script.js"></script>
+    <script src="./script/bxslider.js"></script>
+    <script src="./script/upBottom.js"></script>
 </body>
 </html>
