@@ -241,13 +241,8 @@ body{
 
 }
 
-.features_content{
-    margin-left: 120px;
-}
-
 .features_center{
     max-width: 500px;
-    margin-right: 80px;
 }
 
 .features_v-pre_title{
@@ -290,8 +285,6 @@ body{
     fill: rgba(49, 66, 198, 1);
 }
 
-
-
 .features_border{
     border-bottom: 2px solid rgba(49, 66, 198, 1);
     margin-bottom: 17px;
@@ -317,9 +310,9 @@ body{
 }
 
 .features_right{
-    max-width: 1440px;
-   
+    max-width: 1440px; 
 }
+
 
 
 .inbox{
@@ -1655,6 +1648,10 @@ body{
         width: 100%;
     }
 
+    .features_right{
+        max-width: 100%;
+    }
+
     .understand{
         padding: 50px 0;
     }
@@ -1765,7 +1762,7 @@ body{
     }
 
     .about_items_right p:hover{
-        background-color: rgba(49, 65, 197, 1);
+        background-color: transparent;
     }
 
     .about_icon{
@@ -2030,13 +2027,13 @@ body{
     
     .about_position{
         max-width: 199px;
-        margin-bottom: 18px;
+        margin-bottom: 32px;
     }
 
     .about_city{
         max-width: 199px;
         font-size: 16px;
-         line-height: 22px;
+        line-height: 22px;
     }
     .about_items_right{
         flex: 1;
