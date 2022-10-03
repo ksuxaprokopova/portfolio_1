@@ -6,8 +6,8 @@ $(".about_items > div").on("click", function(){
 
 $(".features_items > div").on("click", function(){
     $(this).parent(".features_items").toggleClass("features_border");
-    $(this).children(".features_img").toggleClass("features_click_color");
-    $(this).children(".features_img").toggleClass("features_click");
+    $(this).children(".features_title").toggleClass("features_click_color");
+    $(this).children(".features_img").children("path").toggleClass("features_img_click");
     $(this).next(".features_text").slideToggle(300);
    
    

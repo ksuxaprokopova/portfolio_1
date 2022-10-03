@@ -227,6 +227,7 @@ body{
 }
 
 
+
 .features{
     position: relative;
     padding: 90px 0 103px;
@@ -237,6 +238,7 @@ body{
 .features_left{
     position: absolute;
     transform: translateY(270px);
+
 }
 
 .features_content{
@@ -280,18 +282,12 @@ body{
     margin-bottom: 8px;
 }
 
-.features_img{
-    position: relative;
+.features_img{  
     margin-right: 15px;
 }
 
 .features_img_click{
-    display: none;
-    position: absolute;
-}
-
-.features_click{
-    color: rgba(49, 66, 198, 1);
+    fill: rgba(49, 66, 198, 1);
 }
 
 
@@ -322,7 +318,7 @@ body{
 
 .features_right{
     max-width: 1440px;
-    transform: translateX(28px);
+   
 }
 
 
@@ -551,20 +547,22 @@ body{
     font-weight: 700;
     font-size: 16px;
     line-height: 24px;
+    color: rgba(43, 41, 45, 1);
     margin-bottom: 3px;
+
 }
 
 .carusel_position{
     font-size: 16px;
     line-height: 24px;
+    color: rgba(43, 41, 45, 0.6);
     margin-bottom: 38px;
 }
 
 .slider_right{
     position: absolute;
-    transform: translate(1200px);
-    margin-top: -240px;
-    
+    right: 0;
+    top: 160px;
 }
 
 
@@ -1141,6 +1139,9 @@ body{
         justify-items: center;
     }
 
+
+
+
     .features_content{
         flex-direction: column;
     }
@@ -1171,6 +1172,7 @@ body{
         max-width: 538px;
         margin-top: 49px;
     }
+
 
 
     .flex_inbox-column{
@@ -1209,6 +1211,7 @@ body{
     }
 
 
+
     .communicate{
         padding: 73px 0 38px;
     }
@@ -1243,6 +1246,7 @@ body{
     }
 
 
+
     .understand{
         padding: 50px 0 79px;
     }
@@ -1269,6 +1273,36 @@ body{
         gap: 38px 64px;
         margin-bottom: 0;
     }
+
+
+
+    .slider{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .slider_right{
+       position: static;
+       margin: 0 auto;
+       margin-top: 51px;
+     }
+
+    .carusel_title{
+        max-width: 573px;
+        margin: 0 auto;
+        margin-bottom: 14px;
+    }
+
+    .carusel_text{
+        max-width: 583px;
+        margin-bottom: 20px;
+    }
+
+    .carusel{
+        margin-bottom: 20px;
+    }
+
+
 
 
 
@@ -1679,6 +1713,7 @@ body{
         margin: 0;
     }
 
+
        
     .about_hat_title{
         max-width: 290px;
@@ -1756,6 +1791,8 @@ body{
         background-color: #fff;
     }
 
+
+
     .features_content{
         margin-left: 0;
     }
@@ -1797,6 +1834,8 @@ body{
     .features_items{
         max-width: 289px;
     }
+
+
 
     .main{
         padding-bottom: 0;
@@ -1930,6 +1969,31 @@ body{
         width: 290px;
         height: 48px;
         margin-bottom: 40px;
+    }
+
+
+    .slider{
+        margin: 0;
+        margin-left: 15px;
+    }
+
+    .carusel_title{
+        text-align: left;
+        margin-bottom: 29px;
+    }
+
+    .carusel_text{
+        text-align: left;
+        margin-bottom: 20px;
+    }
+
+    .carusel_name{
+       text-align-last: left;
+    }
+
+    .carusel_position{
+        text-align-last: left;
+        margin-bottom: 0;
     }
 
      
