@@ -18,9 +18,8 @@
     margin-right: 30px;
 }
 
-.bx-wrapper .bx-pager .bx-default-pager a.active,
-.bx-wrapper .bx-pager .bx-default-pager a:focus,
-.bx-wrapper .bx-pager .bx-default-pager a:hover{
+.bx-pager-item:active{
     background-color: rgba(49, 66, 197, 1);
 }
+
 

@@ -238,11 +238,12 @@ body{
 .features_left{
     position: absolute;
     transform: translateY(270px);
-
+    max-width: 100%;
 }
 
 .features_center{
     max-width: 500px;
+    margin-left: 105px;
 }
 
 .features_v-pre_title{
@@ -951,6 +952,10 @@ body{
         margin-right: 50px;
     }
 
+    .features_right{
+        max-width: 500px;
+    }
+
    .item_portfolio img{
         max-width: 100%;
    }
@@ -1363,7 +1368,7 @@ body{
 
 
     .start{
-        padding: 76px 0 72px;
+        padding: 76px 0 45px;
     }
 
     .start_box{
@@ -1376,7 +1381,7 @@ body{
     }
 
     .start_img{
-        margin: 0 auto;
+        margin: 15px auto;
     }
 
     .start_v-title{
@@ -1472,7 +1477,9 @@ body{
         display: none;
     }
 
-    
+    .footer{
+        padding: 0;
+    }
 
     .footer_bottom_body{
         flex-direction: column;
@@ -1522,6 +1529,12 @@ body{
         padding: 40px 0;
     }
 
+   
+
+    .understand_text{
+        margin-bottom: 27px;
+    }
+
     .logos{
         max-width: 430px; 
     }
@@ -1532,10 +1545,15 @@ body{
 
     .features_center{
         text-align: left;
+        margin-left: 105px;
     }
 
-    .v-text{
-        margin: 0;
+    .features_left{
+        max-width: 100%;
+    }
+
+    .features_v-text{
+        margin-left: 0;
     }
 
     .inbox{
@@ -1607,8 +1625,8 @@ body{
         line-height: 48px;
     }
 
-    .features_center{
-        margin: 0;
+    .features_right{
+        max-width: 100%;
     }
 
     .understand{
@@ -2103,7 +2121,7 @@ body{
 
     .start_start{
         flex-direction: column;
-        padding: 50px 15px;
+        padding: 0 15px;
     }
 
     .start_box{
@@ -2175,7 +2193,7 @@ body{
     }
 
     .footer_bottom{
-        padding-bottom: 15px;
+        padding-bottom: 30px;
     }
 
     .footer_bottom .flex{
