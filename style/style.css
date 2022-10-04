@@ -1545,6 +1545,7 @@ body{
 
     .features_center{
         text-align: left;
+        margin: 0;
         margin-left: 105px;
     }
 
