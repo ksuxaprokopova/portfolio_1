@@ -3,21 +3,18 @@
 }
 
 
+
 body{
     font-family: 'Work Sans', sans-serif;
 }
 
-
-.header{
-    background-color: #F3C6BD;
-    padding: 44px 0 73px;
-}
 
 
 .container{
     max-width: 1140px;
     margin: 0 auto;
 }
+
 
 
 .flex{
@@ -28,6 +25,14 @@ body{
 
 .flex_start{
     justify-content: start;
+}
+
+
+
+
+.header{
+    background-color: #F3C6BD;
+    padding: 44px 0 73px;
 }
 
 .logo img{
@@ -887,6 +892,8 @@ body{
     margin-right: 20px;
 }
 
+
+
 .modal_overlay{
     display: none;
     position: fixed;
@@ -911,12 +918,32 @@ body{
     transform: translate(-50%, -50%);
 }
 
+.modal_text{
+    width: 155px;
+    height: 45px;
+    border: 1px solid rgba(43, 41, 45, .6);
+    box-sizing: border-box;
+}
+
+.modal_name{
+    margin-bottom: 20px;
+}
+
+.modal_text::placeholder{
+    text-align: center;
+    font-size: 18px;
+    line-height: 13px;
+    color: #2B292D;
+}
+
 .close{
     position: absolute;
     top: 20px;
     right: 30px;
     cursor: pointer;
 }
+
+
 
 #up{
     display: none;
@@ -1013,6 +1040,7 @@ body{
     }
 
     .check{
+       position: sticky;
         transition: 300ms;
     }
 
@@ -1024,20 +1052,29 @@ body{
         top: 0;
         right: 0;
         opacity: 0;
-       z-index: 5;
+        z-index: 5;
     }
 
-    .header_menu_checkbox:checked ~ .header_menu_check > .check{
-        transform: rotate(45deg);
+    .header_menu_checkbox:checked ~ .header_menu_check > .check:first-of-type{
+        transform: rotate(45deg) translate(7px);
        
     }
+
+    .header_menu_checkbox:checked ~ .header_menu_check > .check:nth-of-type(2){
+        opacity: 0;
+    }
+
+    .header_menu_checkbox:checked ~ .header_menu_check > .check:last-of-type{
+         transform: rotate(-45deg) translate(7px);
+    }
+
     .header_menu_checkbox:checked  ~ .header_nav{
         display: block;
         position: fixed;
-        background-color: rgb(221, 142, 126);
+        background-color: rgba(243, 198, 189, 1);
         top: 0;
         left: 50%;
-        bottom: 100px;
+        bottom: 50px;
         right: 0;
         border-radius: 20px;
         text-align: center;
@@ -1536,6 +1573,10 @@ body{
         margin-bottom: 27px;
     }
 
+    .container_image img{
+        max-width: 100%;
+    }
+
     .logos{
         max-width: 430px; 
     }
@@ -1583,7 +1624,7 @@ body{
     }
 
     .start_checkbox{
-        max-width: 270px;
+        max-width: 285px;
         margin: 0 auto;
     }
 
