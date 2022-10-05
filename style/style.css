@@ -1034,11 +1034,12 @@ body{
     .header_menu_checkbox:checked  ~ .header_nav{
         display: block;
         position: fixed;
-        background-color: rgba(243, 198, 189, 1);
+        background-color: rgb(221, 142, 126);
         top: 0;
-        left: 0;
-        bottom: 0;
+        left: 50%;
+        bottom: 100px;
         right: 0;
+        border-radius: 20px;
         text-align: center;
     }
 
@@ -1665,6 +1666,13 @@ body{
 
     .container_image_img{
         width: 100%;
+    }
+
+    .features_left{
+        display: none;
+    }
+    .features_center{
+        margin: 0 auto;
     }
 
     .features_right{
