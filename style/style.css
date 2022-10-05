@@ -1022,6 +1022,10 @@ body{
         display: none;
     }
 
+    .header{
+        position: relative;
+    }
+
     .header_nav{
         display: none;
     }
@@ -1040,7 +1044,7 @@ body{
     }
 
     .check{
-       position: sticky;
+       
         transition: 300ms;
     }
 
@@ -1074,7 +1078,7 @@ body{
         background-color: rgba(243, 198, 189, 1);
         top: 0;
         left: 50%;
-        bottom: 50px;
+        bottom: 100%;
         right: 0;
         border-radius: 20px;
         text-align: center;
@@ -1611,6 +1615,31 @@ body{
         margin: 0 auto;
     }
 
+    .communicate{
+        padding: 53px 0;
+    }
+
+    .communicate_text{
+        margin-bottom: 10px;
+    }
+
+    .communicate_content{
+        text-align: left;
+        margin-bottom: 20px;
+    }
+    .communicate_list_top{
+        flex-direction: column;
+    }
+
+    .communicate_list{
+        margin-bottom: 33px;
+    }
+      
+
+    .com_list{
+        display: block;
+    }
+
     .start_box{
         margin: 0;
     }
@@ -1821,6 +1850,11 @@ body{
         font-size: 16px;
          line-height: 22px;
     }
+
+    .about_items_text{
+        margin-bottom: 20px;
+    }
+
     .about_items_right{
         flex: 1;
     }
