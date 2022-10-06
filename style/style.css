@@ -1051,11 +1051,14 @@ body{
     }
 
     .header_menu_check{
-        position: relative;
+        top: 65px;
+        right: 65px;
+        position: fixed;
         z-index: 4;
     }
 
     .check{
+      
         transition: 300ms;
     }
 
@@ -1064,13 +1067,14 @@ body{
         width: 18px;
         height: 18px;
         margin: 0;
-        top: 64px;
-        right: 148px;
+        top: 65px;
+        right: 65px;
         opacity: 0;
         z-index: 5;
     }
 
     .header_menu_checkbox:checked ~ .header_menu_check > .check:first-of-type{
+       
         transform: rotate(45deg) translate(0px);
         position: fixed;
     }
@@ -1081,6 +1085,7 @@ body{
     }
 
     .header_menu_checkbox:checked ~ .header_menu_check > .check:last-of-type{
+        
         transform: rotate(-45deg) translate(0px);
         position: fixed;
     }
@@ -1088,9 +1093,9 @@ body{
     .header_menu_checkbox:checked  ~ .header_nav{
         display: block;
         position: fixed;
-        background-color: rgba(243, 198, 189, 1);
+        background-color: rgb(230, 168, 156);
         top: 0;
-        left: 50%;
+        left: 30%;
         bottom: 100%;
         right: 0;
         border-radius: 20px;
@@ -1570,6 +1575,10 @@ body{
     .header{
         padding: 25px 0;
     }
+
+    .header_menu_checkbox {
+        top: 45px;
+    }
  
 
     .main{
@@ -1751,6 +1760,10 @@ body{
         max-width: 310px;
     }
 
+    .header_menu_checkbox:checked  ~ .header_nav{
+        top: 30px;
+    }
+
     .questions{
         padding: 30px 0;
     }
@@ -1896,17 +1909,13 @@ body{
 
     .about_items_right{
         flex: 1;
+        background-color:  rgba(213, 212, 213, 1);
     }
 
-    .about_items_right p{
-         background-color:  rgba(213, 212, 213, 1);
+    .about_items_right:hover{
+        background-color:  rgba(49, 65, 197, 1);
     }
 
-    .about_items_right p:hover,
-    .about_items_right p.active,
-    .about_items_right p:focus{
-        background-color: transparent;
-    }
 
     .about_icon{
         width: 50px;
@@ -1930,6 +1939,7 @@ body{
 
 
     .header{
+        padding: 25px 0 35px;
         background-color: #fff;
     }
 
@@ -2344,7 +2354,7 @@ body{
 
     .header{
         background-color: #fff;
-        padding: 8px 0;
+        
     }
 
 
